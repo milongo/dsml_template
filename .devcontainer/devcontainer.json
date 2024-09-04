@@ -20,7 +20,8 @@
 				"ms-python.black-formatter",
 				"ms-vsliveshare.vsliveshare",
 				"tamasfe.even-better-toml",
-				"oderwat.indent-rainbow"
+				"oderwat.indent-rainbow",
+				"ms-toolsai.jupyter"
 			],
 			"settings": {
 				"editor.formatOnSave": false,

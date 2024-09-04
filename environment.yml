@@ -1,4 +1,4 @@
-name: { { template } }
+name: dsml
 channels:
   - defaults
   - conda-forge
@@ -10,3 +10,7 @@ dependencies:
   - black=24.4.2
   - pytest=7.4.4
   - pytest-cov=4.1.0
+  - numpy=2.1.0
+  - pandas=2.2.2
+  - seaborn=0.13.2
+  - jupyter=1.0.0
