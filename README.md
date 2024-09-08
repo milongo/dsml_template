@@ -1,6 +1,6 @@
 # DSML Template Repository
 
-This is a basic template repository for DSML projects, built using Miniconda as the package manager and utilizing Docker for reproducibility.
+This is a basic template repository for DSML projects that uses miniconda as the package manager and [devcontainers](https://code.visualstudio.com/docs/devcontainers/containers) to build reproducible environments for our projects.
 
 ## Prerequisites
 
@@ -18,15 +18,15 @@ Before using this template, you need to have the following installed on your sys
 5. Activate the new environment using `source activate dsml` (on Linux/Mac) or `activate dsml` (on Windows).
 6. You're now ready to start working on your project!
 
-## Dependencies
+## Features
 
 The `environment.yml` file specifies the following dependencies:
 
 * Python 3.12
-* Linters and formatters: PyLint, Flake8, Isort, Black
-* Testing framework: pytest
+* Linters and formatters: PyLint, Flake8, Isort, Black for code formatting and code best practices.
+* Testing framework: pytest for unit testing.
 * Data science libraries: NumPy, Pandas, Seaborn
-* Jupyter notebook
+* Jupyter notebook for rapid prototyping.
 
 **License**
 
