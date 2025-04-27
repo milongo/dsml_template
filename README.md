@@ -23,7 +23,7 @@ Before using this template, you need to have the following installed on your sys
 The `environment.yml` file specifies the following dependencies:
 
 * Python 3.12
-* Linters and formatters: PyLint, Flake8, Isort, Black for code formatting and code best practices.
+* Linters and formatters: Ruff for code formatting and code best practices.
 * Testing framework: pytest for unit testing.
 * Data science libraries: NumPy, Pandas, Seaborn
 * Jupyter notebook for rapid prototyping.
